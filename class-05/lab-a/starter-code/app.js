@@ -11,7 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
     var total = a+b ;
     var returnArray = [
-        total
+        total,
         'The sum of 4 and 7 is 11.'
     ]
     return returnArray;
@@ -39,7 +39,7 @@ function multiply(a, b) { //eslint-disable-line
         "The product of 5 and 9 is 45."
     ];
 
-    return returnArray;
+       return returnArray;
 
 }
 
